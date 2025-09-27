@@ -1,0 +1,232 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}
+.p-texto {
+  color: lightgreen;
+}
+#titulo-app {
+  color: purple;
+  font-size: 40px;
+}
+/* especifico*/
+div p {
+  color: red;
+}
+.p-dentro-da-div {
+  color: blue;
+}
+#p-super-especifico {
+  color: green;
+}
+/* cores*/
+.nome {
+  color: orange;
+}
+.hexa {
+  color: #ff5733;
+}
+.rgba {
+  color: rgba(255, 87, 51, 1);
+  font-size: 40px;
+}
+/* background*/
+.div-background {
+  background-image: url(../img/por-do-sol.jpg);
+  height: 300px;
+}
+.titulo-brackground {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+/*fontes*/
+.family {
+  color: #000;
+  font-size: 40px;
+}
+.family.serif {
+  color: green;
+}
+.sans-serify {
+  font-family: arial;
+}
+.serif {
+  color: "times new roman";
+}
+.monospace {
+  font-family: "Courier New";
+}
+.italic {
+  font-style: italic;
+}
+.obliqueo {
+  font-style: oblique;
+}
+.bold {
+  font-weight: bold;
+}
+.variante {
+  font-variant: small-caps;
+}
+/* box model*/
+.boxmodel {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 3px solid black;
+  border-width: 3px 10px 15px 20px;
+  border-radius: 15px;
+  margin: 50px;
+  display: block;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.paragrafo-box {
+  color: black;
+  margin: 0;
+  padding: 20px;
+}
+
+/*postions*/
+/*static*/
+/*relative*/
+/*fixed*/
+/*absolute*/
+/*stick*/
+.div-position {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+.static {
+  position: static;
+}
+.relative {
+  position: relative;
+  background-color: blue;
+  top: 100px;
+  left: 50px;
+}
+.absolute {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: green;
+}
+.sticked {
+  position: sticky;
+  top: 0;
+  background-color: orange;
+}
+.mini-div {
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 100px;
+}
+.fixed {
+  position: fixed;
+  height: 200px;
+  bottom: 0;
+  right: 0;
+  background-color: yellow;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: gray;
+}
+/* Float */
+
+.container {
+  padding: 50px;
+}
+
+.div-float {
+  overflow: auto;
+}
+.clear {
+  clear: both;
+}
+.img-float {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+.p-float {
+  color: #000;
+}
+
+.pixel-1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.pixel-2 {
+  background-color: blue;
+  width: 50px;
+  height: 100px;
+}
+.pai-em {
+ font-size:50px;
+}
+.em-1 {
+  width: 1em;
+  height: 1em;
+  background-color: purple;
+}
+.em-2 {
+  width: 1em;
+}
+div p {
+  color: #000;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: cadetblue;
+  height: 15vh;
+}
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: lightslategray;
+}
+.sidebar {
+  display: flex;
+  width: 17vw;
+  height: 100vh;
+  background-color: lightslategray;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: lightgray;
+}
+.d-none {
+  display: none;
+}
+.content {
+  display: inline-block; /* comportamento padrão */
+  padding: 40px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Position CSS</title>
+    <script>
+        window.onload = function () {
+            const nav = document.querySelector('main');
+            nav.addEventListener('click', toggleSidebar);
+        };
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('d-none');
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">teste</nav>
+    </header>
+    <main>
+        <aside class="sidebar">
+            teste
+        </aside>
+        <div class="content">
+            <p>Conteudo 1</p>
+            <p>Conteudo 2</p>
+            <span> conteudo 3</span>
+            <span> conteudo 4</span>
+        </div>
+    </main>
+    <footer class="footer">teste</footer>
+</body>
+
+</html>
