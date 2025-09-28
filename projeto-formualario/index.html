@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="bg-purple">
+        <h3 class="text-white">Cadastre seu veículo para vender muito mais rápido!</h3>
+    </header>
+    <main>
+        <div class="bg-form height-auto width-60 margin-center">
+            <nav class="nav border-solid ">
+                <p class="border-solid-boottom uppercase center">Cadastro</p>
+            </nav>
+            <div class="padding-91">
+                <div class="line">
+                    <h1>Venda fácil seu veículo!</h1>
+                    <p class="color">Descreva as características do seu veículo e marque todas os opicionais e
+                        características que ele
+                        possui</p>
+                </div>
+
+                <form>
+                    <div class="color margin-top">
+                        <label>Titulo do anúncio <span class="color-red">*</span></label>
+                        <input type="text" class="input-text" required placeholder="Define um titulo para seu veiculo">
+                    </div>
+                    <div class="color margin-top">
+                        <label>Preço do veículo: <span class="color-red">*</span></label>
+                        <input type="number" required class="input-text">
+                    </div>
+                    <div class="color margin-top">
+                        <label>Descrição: <span class="color-red">*</span></label>
+                        <textarea class="input-text-area" rows="20" required></textarea>
+                    </div>
+                    <div class="color margin-top">
+                        <label>Unico Dono: <span class="color-red">*</span></label>
+                        <select class="margin-6">
+                            <option value="">Selecione...</option>
+                            <option value="">Sim</option>
+
+                            <option value="">Não</option>
+
+                        </select>
+                    </div>
+                    <div class="color margin-top">
+                        <label>Marca <span class="color-red">*</span></label>
+                        <input type="text" class="input-text" required placeholder="Digite a marca do seu veiculo">
+                    </div>
+                    <div class="color margin-top">
+                        <label>Modelo <span class="color-red">*</span></label>
+                        <input type="text" class="input-text" placeholder="Digite o modelo do seu veiculo">
+                    </div>
+                    <div class="color margin-top">
+                        <label>Quilometragem: <span class="color-red">*</span></label>
+                        <input type="number" class="input-text">
+                    </div>
+                    <div class="color margin-top">
+                        <label>Data de compra do veículo: <span class="color-red">*</span></label>
+                        <input type="date" class="input-text">
+                    </div>
+                    <div class="color margin-top">
+                        <label>Cambio: <span class="color-red">*</span></label>
+                        <div class="margin-top">
+
+                            <input type="radio"><label class="margin-6">Manual</label>
+                            <input type="radio"><label class="margin-6">Automático</label>
+
+                        </div>
+                    </div>
+                    <div class="color margin-top">
+                        <div>
+                            <label>Opcionais: <span class="color-red">*</span></label>
+                        </div>
+                        <div class="margin-left-12 d-inline-block margin-top line-height-1" >
+                            <ul class="list-style-none">
+                                <li><input type="checkbox"><label class="padding-left-12">Airbag</label></li>
+                                <li><input type="checkbox"><label class="padding-left-12">Alarme</label></li>
+                                <li><input type="checkbox"><label class="padding-left-12">Ar Condicionado</label></li>
+                                <li><input type="checkbox"><label class="padding-left-12">Trava elétrica</label></li>
+                            </ul>
+                        </div>
+
+                        <div class="margin-left-12 d-inline-block margin-top line-height-1">
+                              <ul class="list-style-none">
+                                <li><input type="checkbox"><label class="padding-left-12">Vidro elétrico</label></li>
+                                <li><input type="checkbox"><label class="padding-left-12">Som</label></li>
+                                <li><input type="checkbox"><label class="padding-left-12">Câmera de Ré</label></li>
+                                <li><input type="checkbox"><label class="padding-left-12">Banco de Couro</label></li>
+                              </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="color margin-top">
+                        <label>Envie imagens do veículo <span class="color-red">*</span></label>
+                        <input type="file" class="input-text" placeholder="Digite a marca do seu veiculo">
+                    </div>
+                    <button class="btn-purple margin-top">Cadastrar</button>
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-white {
+  color: white;
+}
+.bg-purple {
+  background-color: #673ab7;
+}
+.bg-form {
+  background-color: white;
+}
+.height-full {
+  height: 100vh;
+}
+.width-60 {
+  width: 60%;
+}
+.width-100 {
+  width: 100%;
+}
+.margin-center {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50px;
+}
+.center {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.border-solid {
+  border: 1px solid #dddd;
+}
+.border-solid-boottom {
+  width: 100px;
+  border-bottom: 1px solid #673ab7;
+}
+.uppercase {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: #673ab7;
+}
+.padding-9 {
+  padding: 40px;
+}
+.line {
+  line-height: 3rem;
+
+}
+.padding-91 {
+  padding: 40px;
+}
+.width-30 {
+  width: 30%;
+}
+.nav {
+  padding-top: 10px;
+}
+header {
+  height: 180px;
+  padding: 20px;
+}
+main {
+  height: auto;
+  background-color: #f0ebf8;
+}
+
+.d-block {
+  display: block;
+}
+.color {
+  color: #444444;
+}
+.color-red {
+  color: red;
+  margin-left: 3px;
+}
+
+.input-text {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 350px;
+  display: block;
+  border-bottom: 1.6px solid #dddd;
+  margin-bottom: 20px;
+}
+.input-text-area {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 350px;
+  display: block;
+  margin-bottom: 20px;
+}
+.margin-6{
+  margin-left: 6px;
+}
+.height-auto{
+  height: auto;
+}
+.margin-12{
+  margin-left: 12px;
+}
+.d-inline-block{
+  display: inline-block;
+}
+.margin-left-12{
+    margin-left: 50px;
+
+}
+.d-inline-block{
+  display: inline-block;
+}
+.btn-purple{
+  background-color: #673ab7;
+  padding: 18px;
+  width: 150px;
+  text-transform: uppercase;
+  color:white;
+  border:none;
+}
+.margin-top{
+  margin-top:30px;
+}
+.padding-left-12{
+  padding-left: 12px;
+}
+ul{
+  list-style: none;
+}
+.line-height-1{
+  line-height: 1.50rem;
+}
+
